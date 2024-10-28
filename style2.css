@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh; 
-    background: linear-gradient(to left, #8b439a, #d9a7e9);
+    background: linear-gradient(to left, #501970 ,#9a51c5, #d9a7e9);
 }
 
 .header h1 {
@@ -20,11 +20,7 @@ body {
 }
 
 p {
-    color: black;  
-}
-
-header p {
-    padding: 15px;
+    color: white;  
 }
 
 .perfil{
@@ -35,7 +31,7 @@ header p {
     border: 2px solid #FFD700;
 }
 
-.perfil img {
+.perfil img{
     width: 100%;
     height: auto;
     border-radius: 10%;
@@ -87,4 +83,52 @@ img:hover {
 .about p {
     color: white; /* roxo */
     padding: 20px;
+}
+
+.detalhes{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+a {
+    color: black;
+}
+
+a:hover{
+    cursor: pointer;
+    color: #784699;
+}
+
+@media (max-width: 575.98px){
+    .about {
+        margin: 10px 10px;  
+        padding: 15px;       
+        width: auto;         
+    }
+}
+
+@media (min-width: 576px) and (max-width:991.98px){
+    .about {
+        margin: 10px 20px; 
+        padding: 20px;     
+        width: auto;     
+    }
+}
+
+@media (min-width: 768px) and (max-width:1199.98px){
+    .about {
+        margin: 10px 50px; 
+        padding: 20px; 
+        width: 80%;   
+    }
+}
+
+@media (min-width: 1200px) {
+    .about {
+        margin: 10px 150px; 
+        padding: 20px;  
+        width: 800px;  
+    }
 }
